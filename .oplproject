@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="false" name="03_MIP-knapsack-problem" category="opl">
+            			
+            <ref name="03_MIP-knapsack-problem/knapsack-problem.mod" type="model">
+			</ref>
+            			
+            <ref name="03_MIP-knapsack-problem/knapsack-problem.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="02_transportation-problem" category="opl">
+            			
+            <ref name="02_LP-transportation-problem/LP-transportation-problem.mod" type="model">
+			</ref>
+            			
+            <ref name="02_LP-transportation-problem/LP-transportation-problem.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="01_resource-allocation-problem" category="opl">
+            			
+            <ref name="01_LP-resource-allocation-problem/resource-allocation-problem.mod" type="model">
+			</ref>
+            			
+            <ref name="01_LP-resource-allocation-problem/resource-allocation-problem.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="00_jaist-lecture-scheduling" category="opl">
+            			
+            <ref name="00_jaist-lecture-scheduling/jaist-sub-theme.mod" type="model">
+			</ref>
+            			
+            <ref name="00_jaist-lecture-scheduling/jaist-sub-theme.ops" type="setting">
+			</ref>
+            			
+            <ref name="00_jaist-lecture-scheduling/data/jaist-sub-theme.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="true" name="12-0_cloud-infrastructure-resource-allocation" category="opl">
+            			
+            <ref name="00_cloud-infrastructure-resource-allocation/12_cloud-infrastructure-resource-allocation.mod" type="model">
+			</ref>
+            			
+            <ref name="00_cloud-infrastructure-resource-allocation/12_cloud-infrastructure-resource-allocation.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="12-1_cloud-infrastructure-resource-allocation" category="opl">
+            			
+            <ref name="00_cloud-infrastructure-resource-allocation/12_cloud-infrastructure-resource-allocation.mod" type="model">
+			</ref>
+            			
+            <ref name="00_cloud-infrastructure-resource-allocation/data1.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="12-2_cloud-infrastructure-resource-allocation" category="opl">
+            			
+            <ref name="00_cloud-infrastructure-resource-allocation/12_cloud-infrastructure-resource-allocation.mod" type="model">
+			</ref>
+            			
+            <ref name="00_cloud-infrastructure-resource-allocation/data2.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="12-3_cloud-infrastructure-resource-allocation" category="opl">
+            			
+            <ref name="00_cloud-infrastructure-resource-allocation/data3.dat" type="data">
+			</ref>
+            			
+            <ref name="00_cloud-infrastructure-resource-allocation/12_cloud-infrastructure-resource-allocation.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

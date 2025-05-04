@@ -1,0 +1,28 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: hiralab-NUC
+ * Creation Date: 2025/04/29 at 14:59:10
+ *********************************************/
+
+Apps = { "App1", "App2", "App3" };
+Types = { "TypeA", "TypeB", "TypeD" };
+AZs = { "AZ-A", "AZ-B" };
+DistApps = { "App2", "App3" };
+
+req_cpu = [12, 10, 15];
+req_mem = [24, 20, 30];
+req_disk = [200, 150, 250];
+
+cpu = [8, 6, 2];
+mem = [16, 12, 4];
+disk = [150, 100, 50];
+cost = [120, 100, 50];
+
+min_inst_per_app = [
+  2,
+  2,
+  3,
+];
+
+max_typeD = 1;
+ 

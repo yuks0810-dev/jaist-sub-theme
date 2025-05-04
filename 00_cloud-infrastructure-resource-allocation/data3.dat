@@ -1,0 +1,28 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: hiralab-NUC
+ * Creation Date: 2025/04/29 at 15:00:31
+ *********************************************/
+
+Apps = { "App1", "App2", "App3", "App4" };
+Types = { "TypeA", "TypeB", "TypeC", "TypeD" };
+AZs = { "AZ-A", "AZ-B", "AZ-C" };
+DistApps = { "App1", "App4" };
+
+req_cpu = [10, 8, 6, 12];
+req_mem = [20, 16, 12, 24];
+req_disk = [150, 120, 100, 180];
+
+cpu = [6, 4, 3, 2];
+mem = [12, 10, 8, 6];
+disk = [100, 80, 60, 40];
+cost = [90, 70, 60, 40];
+
+min_inst_per_app = [
+  2, // App1 → 最低2台（AZ分散）
+  2, // App2 → 最低2台（AZ分散）
+  1, // App3 → 最低1台（どちらかのAZに）
+  2  // App4 → 最低2台（AZ分散）
+];
+
+max_typeD = 2;
